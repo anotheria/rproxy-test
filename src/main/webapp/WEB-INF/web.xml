@@ -4,11 +4,11 @@
 	http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd">
 
 	<filter>
-		<filter-name>MyFilter</filter-name>
-		<filter-class>net.anotheria.filter.MyFilter</filter-class>
+		<filter-name>ProxyFilter</filter-name>
+		<filter-class>net.anotheria.rproxy.ProxyFilter</filter-class>
 	</filter>
 	<filter-mapping>
-		<filter-name>MyFilter</filter-name>
+		<filter-name>ProxyFilter</filter-name>
 		<url-pattern>/*</url-pattern>
 	</filter-mapping>
 

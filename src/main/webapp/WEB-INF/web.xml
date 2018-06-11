@@ -16,11 +16,11 @@
         </init-param>
         <init-param>
             <param-name>SubDomainRule</param-name>
-            <param-value>faq,1,magazine,2</param-value>
+            <param-value></param-value>
         </init-param>
         <init-param>
             <param-name>TopDomainRule</param-name>
-            <param-value>1,localhost,2</param-value>
+            <param-value></param-value>
         </init-param>
     </filter>
     <filter-mapping>

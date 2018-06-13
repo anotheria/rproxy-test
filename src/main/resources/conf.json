@@ -14,5 +14,12 @@
     1,
     "fr",
     2
+  ],
+  "contentReplacement": [
+    [
+      "/faq/wp-content/uploads/2018/04/TCL_logo_black_pink.png",
+      "/logo",
+      "url"
+    ]
   ]
 }

@@ -8,7 +8,7 @@
         <filter-class>net.anotheria.rproxy.ProxyFilter</filter-class>
         <init-param>
             <param-name>BaseURL</param-name>
-            <param-value>http://faq.thecasuallounge.ch,http://magazine.google.com</param-value>
+            <param-value>http://faq.thecasuallounge.ch</param-value>
         </init-param>
         <init-param>
             <param-name>HostURL</param-name>

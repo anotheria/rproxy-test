@@ -1,0 +1,18 @@
+{
+  "baseUrl": [
+    "http://faq.thecasuallounge.ch",
+    "http://www.google.com.ua"
+  ],
+  "hostUrl": "http://localhost:8080",
+  "subDomainRules": [
+    "faq",
+    1,
+    "magazine",
+    2
+  ],
+  "topDomainRules": [
+    1,
+    "fr",
+    2
+  ]
+}

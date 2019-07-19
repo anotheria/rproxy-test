@@ -1,0 +1,47 @@
+//{
+//  "dev_npavlov": {
+//    "sourcePath": "http://localhost:8080",
+//    "targetPath": "http://faq.thecasuallounge.ch",
+//    "baseLocales": [
+//      "localhost",
+//      "ch"
+//    ],
+//    "@localeSpecialTargets": [
+//      {
+//        "locale": "localhost",
+//        "customTarget": "http://faq.thecasuallounge.ch"
+//      }
+//    ],
+//    "excludeHosts": [
+//      "www.fr.cms.thecasuallounge.ch"
+//    ],
+//    "@cachingPolicy": {
+//      "fileType": [
+//        ".css",
+//        ".jpg",
+//        ".png",
+//        ".woff2",
+//        ".ttf",
+//        ".js"
+//      ],
+//      "@cacheStrategy": {
+//        "name": "LRU",
+//        "configName": "LRUConfig"
+//      }
+//    }
+//  }
+//}
+
+{
+  "dev_npavlov": {
+    "sourcePath": "http://localhost:8080",
+    "targetPath": "http://faq.thecasuallounge.ch",
+    "baseLocales": [
+      "localhost",
+      "ch"
+    ],
+    "excludeHosts": [
+      "www.fr.cms.thecasuallounge.ch"
+    ]
+  }
+}

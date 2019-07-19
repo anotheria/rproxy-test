@@ -1,0 +1,19 @@
+{
+  "sourcePath": "http://localhost:8080/test",
+  "targetPath": "http://faq.thecasuallounge.ch",
+  "@cachingPolicy": {
+    "fileType": [
+      ".css",
+      ".js",
+      ".jpg",
+      ".png",
+      ".woff2",
+      ".ttf"
+    ],
+    "@cacheStrategy": {
+      "name": "AUTOEXPIRY_DISK",
+      "configName" : "disk-autoexpiry-rproxy-config"
+    }
+  },
+  "alias" : "storage1"
+}

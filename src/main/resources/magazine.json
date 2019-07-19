@@ -1,0 +1,10 @@
+{
+  "sourcePath": "http://localhost:8080",
+  "targetPath": "http://magazine.fairnel.com",
+  "baseLocales": [
+    "com", "localhost"
+  ],
+  "excludeHosts": [
+
+  ]
+}

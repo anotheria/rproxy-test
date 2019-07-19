@@ -4,33 +4,20 @@
 	http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd">
 
     <filter>
-        <filter-name>ProxyFilter</filter-name>
-        <filter-class>net.anotheria.rproxy.ProxyFilter</filter-class>
-        <init-param>
-            <param-name>BaseURL</param-name>
-            <param-value>https://www.cms.thecasuallounge.ch</param-value>
-        </init-param>
-        <init-param>
-            <param-name>HostURL</param-name>
-            <param-value>http://localhost:8080</param-value>
-        </init-param>
-        <init-param>
-            <param-name>SubDomainRule</param-name>
-            <param-value></param-value>
-        </init-param>
-        <init-param>
-            <param-name>TopDomainRule</param-name>
-            <param-value></param-value>
-        </init-param>
+        <filter-name>ProxyFilterTest</filter-name>
+        <filter-class>net.anotheria.rproxy.ProxyFilterTest</filter-class>
     </filter>
     <filter-mapping>
-        <filter-name>ProxyFilter</filter-name>
-        <url-pattern>/faq/*</url-pattern>
-    </filter-mapping>
-    <filter-mapping>
-        <filter-name>ProxyFilter</filter-name>
+        <filter-name>ProxyFilterTest</filter-name>
         <url-pattern>/magazine/*</url-pattern>
     </filter-mapping>
+    <filter-mapping>
+        <filter-name>ProxyFilterTest</filter-name>
+        <url-pattern>/faq/*</url-pattern>
+    </filter-mapping>
+
+
+
 
     <servlet>
         <servlet-name>jersey-serlvet</servlet-name>

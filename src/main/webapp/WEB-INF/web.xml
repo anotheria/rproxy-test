@@ -23,6 +23,15 @@
             <param-value></param-value>
         </init-param>
     </filter>
+    <filter>
+        <filter-name>ResourceCacheFilter</filter-name>
+        <filter-class>net.anotheria.rproxy.ResourceCacheFilter</filter-class>
+    </filter>
+
+    <filter-mapping>
+        <filter-name>ResourceCacheFilter</filter-name>
+        <url-pattern>/faq/*</url-pattern>
+    </filter-mapping>
     <filter-mapping>
         <filter-name>ProxyFilter</filter-name>
         <url-pattern>/faq/*</url-pattern>
@@ -42,9 +51,18 @@
         <load-on-startup>1</load-on-startup>
     </servlet>
 
+    <servlet>
+        <servlet-name>CacheStatsServlet</servlet-name>
+        <servlet-class>net.anotheria.rproxy.cache.web.CacheStatsServlet</servlet-class>
+    </servlet>
+
     <servlet-mapping>
         <servlet-name>jersey-serlvet</servlet-name>
         <url-pattern>/*</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>CacheStatsServlet</servlet-name>
+        <url-pattern>/app/cache/stats</url-pattern>
     </servlet-mapping>
 
 </web-app>

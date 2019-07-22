@@ -7,15 +7,6 @@
         <filter-name>ProxyFilterTest</filter-name>
         <filter-class>net.anotheria.rproxy.ProxyFilterTest</filter-class>
     </filter>
-    <filter>
-        <filter-name>ResourceCacheFilter</filter-name>
-        <filter-class>net.anotheria.rproxy.ResourceCacheFilter</filter-class>
-    </filter>
-
-    <filter-mapping>
-        <filter-name>ResourceCacheFilter</filter-name>
-        <url-pattern>/faq/*</url-pattern>
-    </filter-mapping>
     <filter-mapping>
         <filter-name>ProxyFilterTest</filter-name>
         <url-pattern>/magazine/*</url-pattern>
@@ -37,7 +28,6 @@
         </init-param>
         <load-on-startup>1</load-on-startup>
     </servlet>
-
     <servlet>
         <servlet-name>CacheStatsServlet</servlet-name>
         <servlet-class>net.anotheria.rproxy.cache.web.CacheStatsServlet</servlet-class>

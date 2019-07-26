@@ -31,7 +31,6 @@
 //    }
 //  }
 //}
-
 {
   "baseLocales": [
     "localhost"
@@ -43,5 +42,28 @@
     "excludeHosts": [
       "www.fr.cms.thecasuallounge.ch"
     ]
+  },
+
+  "dev": {
+    "sourcePath": "http://localhost:8080",
+    "targetPath": "http://faq.thecasuallounge.ch",
+    "baseLocales": [
+      "localhost",
+      "ch"
+    ],
+    "excludeHosts": [
+      "www.fr.cms.thecasuallounge.ch"
+    ],
+    "cacheableResourcesFsStoragePath": "/opt/ano/rproxy/storage",
+    "excludedCecheableResourcesSuffix": [],
+    "cacheableResourcesSuffix": [
+      ".js",
+      ".png",
+      ".jpg",
+      ".jpeg",
+      ".font",
+      ".css"
+    ]
   }
+
 }

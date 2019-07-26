@@ -4,15 +4,15 @@
 	http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd">
 
     <filter>
-        <filter-name>ProxyFilterTest</filter-name>
-        <filter-class>net.anotheria.rproxy.ProxyFilterTest</filter-class>
+        <filter-name>ProxyFilter</filter-name>
+        <filter-class>net.anotheria.rproxy.ProxyFilter</filter-class>
     </filter>
     <filter-mapping>
-        <filter-name>ProxyFilterTest</filter-name>
+        <filter-name>ProxyFilter</filter-name>
         <url-pattern>/magazine/*</url-pattern>
     </filter-mapping>
     <filter-mapping>
-        <filter-name>ProxyFilterTest</filter-name>
+        <filter-name>ProxyFilter</filter-name>
         <url-pattern>/faq/*</url-pattern>
     </filter-mapping>
 

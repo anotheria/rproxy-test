@@ -33,13 +33,13 @@
 //}
 
 {
+  "baseLocales": [
+    "localhost"
+  ],
+  "sourcePath": "http://localhost:8080",
+  "targetPath": "http://faq.thecasuallounge.ch",
+
   "dev_npavlov": {
-    "sourcePath": "http://localhost:8080",
-    "targetPath": "http://faq.thecasuallounge.ch",
-    "baseLocales": [
-      "localhost",
-      "ch"
-    ],
     "excludeHosts": [
       "www.fr.cms.thecasuallounge.ch"
     ]

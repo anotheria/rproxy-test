@@ -6,5 +6,28 @@
   ],
   "excludeHosts": [
 
-  ]
+  ],
+  "dev": {
+    "sourcePath": "http://localhost:8080",
+    "targetPath": "http://magazine.fairnel.com",
+    "baseLocales": [
+      "localhost",
+      "ch"
+    ],
+    "excludeHosts": [
+    ],
+    "cacheableResourcesFsStoragePath": "/opt/ano/rproxy/storage",
+    "excludedCecheableResourcesSuffix": [],
+    "cacheableResourcesSuffix": [
+      ".js",
+      ".png",
+      ".jpg",
+      ".jpeg",
+      ".font",
+      ".css"
+    ],
+    "resourceCacheTtlSeconds" : 1800,
+    "resourceCacheMaxSize" : 100,
+    "resourceCacheStartSize": 1000
+  }
 }

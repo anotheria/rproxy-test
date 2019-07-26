@@ -63,7 +63,10 @@
       ".jpeg",
       ".font",
       ".css"
-    ]
+    ],
+    "resourceCacheTtlSeconds" : 1800,
+    "resourceCacheMaxSize" : 100,
+    "resourceCacheStartSize": 1000
   }
 
 }

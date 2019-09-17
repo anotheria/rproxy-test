@@ -54,7 +54,7 @@
     "excludeHosts": [
       "www.fr.cms.thecasuallounge.ch"
     ],
-    "cacheableResourcesFsStoragePath": "/opt/ano/rproxy/storage",
+    "cacheableResourcesFsStoragePath": "/Users/dima/work/nazax/ano/storage",
     "excludedCecheableResourcesSuffix": [],
     "cacheableResourcesSuffix": [
       ".js",

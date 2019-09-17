@@ -16,7 +16,7 @@
     ],
     "excludeHosts": [
     ],
-    "cacheableResourcesFsStoragePath": "/opt/ano/rproxy/storage",
+    "cacheableResourcesFsStoragePath": "/Users/dima/work/nazax/ano/storage",
     "excludedCecheableResourcesSuffix": [],
     "cacheableResourcesSuffix": [
       ".js",

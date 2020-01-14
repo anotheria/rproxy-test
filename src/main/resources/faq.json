@@ -36,7 +36,7 @@
     "localhost"
   ],
   "sourcePath": "http://localhost:8080",
-  "targetPath": "http://faq.thecasuallounge.ch",
+  "targetPath": "http://faq.fairnel.com",
 
   "dev_npavlov": {
     "excludeHosts": [
@@ -46,7 +46,7 @@
 
   "dev": {
     "sourcePath": "http://localhost:8080",
-    "targetPath": "http://faq.thecasuallounge.ch",
+    "targetPath": "http://faq.fairnel.com",
     "baseLocales": [
       "localhost",
       "ch"

@@ -15,6 +15,10 @@
         <filter-name>ProxyFilter</filter-name>
         <url-pattern>/faq/*</url-pattern>
     </filter-mapping>
+    <filter-mapping>
+        <filter-name>ProxyFilter</filter-name>
+        <url-pattern>/blog/*</url-pattern>
+    </filter-mapping>
 
 
 

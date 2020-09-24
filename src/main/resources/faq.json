@@ -1,39 +1,6 @@
-//{
-//  "dev_npavlov": {
-//    "sourcePath": "http://localhost:8080",
-//    "targetPath": "http://faq.thecasuallounge.ch",
-//    "baseLocales": [
-//      "localhost",
-//      "ch"
-//    ],
-//    "@localeSpecialTargets": [
-//      {
-//        "locale": "localhost",
-//        "customTarget": "http://faq.thecasuallounge.ch"
-//      }
-//    ],
-//    "excludeHosts": [
-//      "www.fr.cms.thecasuallounge.ch"
-//    ],
-//    "@cachingPolicy": {
-//      "fileType": [
-//        ".css",
-//        ".jpg",
-//        ".png",
-//        ".woff2",
-//        ".ttf",
-//        ".js"
-//      ],
-//      "@cacheStrategy": {
-//        "name": "LRU",
-//        "configName": "LRUConfig"
-//      }
-//    }
-//  }
-//}
 {
   "baseLocales": [
-    "localhost"
+    "localhost", "ch_fr"
   ],
   "sourcePath": "http://localhost:8080",
   "targetPath": "http://faq.fairnel.com",
@@ -41,15 +8,26 @@
   "dev_npavlov": {
     "excludeHosts": [
       "www.fr.cms.thecasuallounge.ch"
+    ],
+    "@localeSpecialTargets": [
+      {
+        "locale": "ch_fr",
+        "customTarget": "http://faq.thecasuallounge.fr"
+      }
+    ],
+    "@hostLocaleMapping": [
+      {
+        "locale": "ch_fr",
+        "host": "localhost"
+      }
     ]
   },
 
   "dev": {
     "sourcePath": "http://localhost:8080",
-    "targetPath": "http://faq.fairnel.com",
+    "targetPath": "http://faq.thecasuallounge.de",
     "baseLocales": [
-      "localhost",
-      "ch"
+      "localhost"
     ],
     "excludeHosts": [
       "www.fr.cms.thecasuallounge.ch"
